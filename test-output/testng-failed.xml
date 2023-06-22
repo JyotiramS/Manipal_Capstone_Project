@@ -1,74 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="MicrosoftEdge(failed)">
-    <parameter name="port" value="6666"/>
+  <test thread-count="5" parallel="tests" name="chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="org.TestGrid.GridTestCase6">
+      <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
         <methods>
-          <include name="SetUp"/>
-          <include name="test2"/>
+          <include name="closeBrowser"/>
+          <include name="testscenario2"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- org.TestGrid.GridTestCase6 -->
-      <class name="org.TestGrid.GridTestCase3">
+      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
+      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
         <methods>
-          <include name="test2"/>
-          <include name="SetUp"/>
+          <include name="closeBrowser"/>
+          <include name="testscenario"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- org.TestGrid.GridTestCase3 -->
-      <class name="org.TestGrid.GridTestcase2">
-        <methods>
-          <include name="SetUp"/>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestcase2 -->
-      <class name="org.TestGrid.GridTestCase4">
-        <methods>
-          <include name="test2"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestCase4 -->
-      <class name="org.TestGrid.GridTestCase1">
-        <methods>
-          <include name="test2"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestCase1 -->
-      <class name="org.TestGrid.GridTestCase5">
-        <methods>
-          <include name="SetUp"/>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestCase5 -->
+      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
     </classes>
-  </test> <!-- MicrosoftEdge(failed) -->
-  <test thread-count="5" parallel="tests" name="Chrome(failed)">
-    <parameter name="port" value="5555"/>
+  </test> <!-- chrome Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Microsoft Test(failed)">
+    <parameter name="browser" value="MicrosoftEdge"/>
     <classes>
-      <class name="org.TestGrid.GridTestCase3">
+      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
         <methods>
-          <include name="test2"/>
-          <include name="SetUp"/>
+          <include name="testscenario1"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- org.TestGrid.GridTestCase3 -->
-      <class name="org.TestGrid.GridTestcase2">
+      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
+      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
         <methods>
-          <include name="SetUp"/>
-          <include name="test2"/>
+          <include name="setUp"/>
+          <include name="testscenario4"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- org.TestGrid.GridTestcase2 -->
-      <class name="org.TestGrid.GridTestCase1">
-        <methods>
-          <include name="test2"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestCase1 -->
-      <class name="org.TestGrid.GridTestCase5">
-        <methods>
-          <include name="SetUp"/>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- org.TestGrid.GridTestCase5 -->
+      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
     </classes>
-  </test> <!-- Chrome(failed) -->
+  </test> <!-- Microsoft Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

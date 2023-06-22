@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
-  <test  name="Chrome">
-	  <parameter name="port" value="5555"/>
+  <test  name="chrome Test">
+	  <parameter name="browser" value="chrome" />
     <classes>
-      <class name="org.TestGrid.GridTestCase6"/>
-      <class name="org.TestGrid.GridTestCase3"/>
-      <class name="org.TestGrid.GridTestCase5"/>
-      <class name="org.TestGrid.GridTestCase4"/>
-      <class name="org.TestGrid.GridTestcase2"/>
-      <class name="org.TestGrid.GridTestCase1"/>
+		<class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
+     <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest"/>
+      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest"/>
+     <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/>
+       <class name="org.AutomationExercise.GridTests.RegisterUserTest"/>
+      <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/>
+    </classes>
+  </test>   
+  
+   <test  name="Microsoft Test">
+	    <parameter name="browser" value="MicrosoftEdge" />
+    <classes>
+       <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest"/>
+      <class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
+        <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/>
+      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/>
+       <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest"/>
+       <class name="org.AutomationExercise.GridTests.RegisterUserTest"/>
+    
     </classes>
   </test> <!-- Test -->
-  
-   <test  name="MicrosoftEdge">
-	   <parameter name="port" value="6666"/>
-    <classes>
-      <class name="org.TestGrid.GridTestCase6"/>
-      <class name="org.TestGrid.GridTestCase3"/>
-      <class name="org.TestGrid.GridTestCase5"/>
-      <class name="org.TestGrid.GridTestCase4"/>
-      <class name="org.TestGrid.GridTestcase2"/>
-      <class name="org.TestGrid.GridTestCase1"/>
-    </classes>
-  </test> <!-- Test -->
-  
 </suite> <!-- Suite -->

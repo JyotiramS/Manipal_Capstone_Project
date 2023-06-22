@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.AutomationExercieseTestScripts.Testcase2">
+      <class name="org.AutomationExercise.Tests.InValidLoginCredentialsTest">
         <methods>
-          <include name="testscenario"/>
-          <include name="closeBrowser"/>
           <include name="setUp"/>
+          <include name="testscenario3"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- org.AutomationExercieseTestScripts.Testcase2 -->
+      </class> <!-- org.AutomationExercise.Tests.InValidLoginCredentialsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
