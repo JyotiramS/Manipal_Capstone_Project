@@ -25,15 +25,15 @@ public class RemoveProductFromCartTest  extends BaseConfiguration {
 	}
 
 	@Test
-	public void testscenario4() throws  InterruptedException {
+	public void testscenario4() throws  IOException, InterruptedException {
 		
 		removeProductsObj.verificationOfremoveProduct();
 	}
 	
-@AfterMethod()
+/*@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}
+}*/
 
 }

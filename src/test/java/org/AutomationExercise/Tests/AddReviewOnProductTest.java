@@ -22,14 +22,14 @@ public class AddReviewOnProductTest extends BaseConfiguration {
 
 
     @Test
-    public void testScenario() throws  IOException{
+    public void testScenario() throws  IOException, InterruptedException{
     	
         addReviewProductObj.verificationOfAddReviewProduct();
     }
 
-    @AfterMethod
+   /* @AfterMethod
     public void closeBrowser() {
         driver.quit();
         System.out.println("Browser Closed");
-    }
+    }*/
 }

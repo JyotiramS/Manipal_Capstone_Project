@@ -16,34 +16,41 @@ public class AddReviewOnProduct extends BaseConfiguration {
         PageFactory.initElements(driver,this);
         
     }    
-	@FindBy(xpath = "//a[@href='/products']")
-    WebElement ProductButton;
-	
-	@FindBy(xpath = "//div[@class='col-sm-9 padding-right']//div[2]//div[1]//div[2]//ul[1]//li[1]//a[1]")
-	 WebElement viewproductButton;
-
-	@FindBy(xpath = "//input[@id='name']")
-	 WebElement YourName;
-	
-	@FindBy(xpath = "//input[@id='email']")
-	 WebElement Emailaddress;
-	
-	@FindBy(xpath = "//textarea[@id='review']")
-	 WebElement addreview;
-
-	@FindBy(xpath = "//button[@id='button-review']")
-	 WebElement submitreviewbuttton;
-
+    @FindBy(xpath = "//a[text()=' Products']")
+    WebElement Product;
+    
+    @FindBy(xpath = "(//a[text()='View Product'])[1]")
+    WebElement ViewProduct;
+    
+  
+    
+   // @FindBy(xpath = "//a[text()='Write Your Review']")
+   // WebElement WriteYourReview;
+    
+    @FindBy(xpath = "//input[@id=\"name\"]")
+    WebElement YourName;
+    
+    @FindBy(xpath = "//input[@id=\"email\"]")
+    WebElement Emailaddress;
+    
+    @FindBy(xpath = "//textarea[@id=\"review\"]")
+    WebElement addreview;
+    
+    @FindBy(xpath = "//button[@id='button-review']")
+    WebElement submit;
+    
+  //  @FindBy(xpath = "//span[text()='Thank you for your review.']")
+  //  WebElement success;
 	
 
 	public void verificationOfAddReviewProduct() {
 		// TODO Auto-generated method stub
 
-		ProductButton.click();
+		Product.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 	    js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
 		
-		viewproductButton.click();
+	    ViewProduct.click();
 		
 		YourName.sendKeys(readProperty("name"));
 		Emailaddress.sendKeys(readProperty("email"));
@@ -52,7 +59,7 @@ public class AddReviewOnProduct extends BaseConfiguration {
 		JavascriptExecutor j2 = (JavascriptExecutor) driver;
 	    j2.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
 	      
-		submitreviewbuttton.click();
+	    submit.click();
 	}
 
 }

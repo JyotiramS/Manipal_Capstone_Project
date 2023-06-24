@@ -1,5 +1,6 @@
 package org.AutomationExercise.GridTests;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.PageObjects.SearchProducts;
@@ -13,23 +14,23 @@ public class SearchProductsTest extends BaseClass{
 	
 	 public SearchProducts removeProductsObj;
 	   
-	    @Parameters("browser")
+	    @Parameters("port")
 		@BeforeTest
-		public void setUp(String browser) throws MalformedURLException {
+		public void setUp(String port) throws MalformedURLException {
 			BaseClass.initializeProp("Configuration/config.properties"); 
-			launchBrowser(browser);
+			launchBrowser(port);
 			removeProductsObj=new SearchProducts(driver);
 		}
 
 		@Test
-		public void testscenario() throws InterruptedException {
+		public void searchProductTest() throws IOException, InterruptedException {
 			removeProductsObj.verificationOfSearchProduct();
 		}
 		
-	@AfterMethod()
+/*	@AfterMethod()
 		public void closeBrowser(){
 			 driver.quit();
 	            System.out.println("Browser Closed");
-	}
+	}*/
 
 }

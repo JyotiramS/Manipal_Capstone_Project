@@ -1,5 +1,6 @@
 package org.AutomationExercise.Tests;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.Base.BaseConfiguration;
@@ -25,16 +26,16 @@ public class RegisterUserTest extends BaseConfiguration {
 	}
 
 	@Test
-	public void testscenario1() throws InterruptedException {
+	public void testscenario1() throws IOException, InterruptedException {
 		
 		registeruserOBJ.verifyRegisterSuccess();
 		
 	}
-	@AfterMethod()
+	/*@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}
+}*/
 
 	
 

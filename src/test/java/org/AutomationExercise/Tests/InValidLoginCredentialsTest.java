@@ -18,21 +18,21 @@ public class InValidLoginCredentialsTest extends BaseConfiguration{
 	@BeforeTest
 	public void setUp() throws InterruptedException{
 		BaseConfiguration.initializeProp("Configuration/config.properties");
-		launchBrowser();
+		driver = launchBrowser();
 		loginIvcredentialObj=new InvalidLoginCredentials(driver);
 	}
 
 	@Test
-	public void testscenario3()throws  IOException  {
+	public void testscenario3()throws  IOException, InterruptedException  {
 		
 		loginIvcredentialObj.verificationInvalidCredentials();;
 	}
 	
-@AfterMethod()
+/*@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
-            System.out.println("Browser Closed");
-}
+           System.out.println("Browser Closed");
+}*/
 }
 
 

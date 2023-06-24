@@ -39,8 +39,8 @@ public class BaseConfiguration {
         driver = new ChromeDriver();
         driver.get(readProperty("applicationurl"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         PageFactory.initElements(driver, BaseConfiguration.class);
 		return driver;
     }

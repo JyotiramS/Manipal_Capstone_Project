@@ -1,5 +1,6 @@
 package org.AutomationExercise.GridTests;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.PageObjects.RemoveProductFromCart;
@@ -14,24 +15,24 @@ public class RemoveProductFromCartTest  extends BaseClass {
 
 	    public RemoveProductFromCart removeProductsObj;
 	   
-	@Parameters("browser")
+	@Parameters("port")
 	@BeforeTest
-	public void setUp(String browser) throws MalformedURLException {
+	public void setUp(String port) throws MalformedURLException {
 		BaseClass.initializeProp("Configuration/config.properties"); 
-		launchBrowser(browser);
+		launchBrowser(port);
 		removeProductsObj=new RemoveProductFromCart(driver);
 	}
 
 	@Test
-	public void testscenario4() throws InterruptedException {
+	public void removeProductTest() throws IOException, InterruptedException {
 		
 		removeProductsObj.verificationOfremoveProduct();
 	}
 	
-@AfterMethod()
+/*@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}
+}*/
 
 }

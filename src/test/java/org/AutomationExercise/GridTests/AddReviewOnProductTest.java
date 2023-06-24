@@ -2,6 +2,7 @@ package org.AutomationExercise.GridTests;
 
 
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.PageObjects.AddReviewOnProduct;
@@ -17,24 +18,24 @@ public class AddReviewOnProductTest extends BaseClass {
 	
 	public AddReviewOnProduct addReviewProductObj;
 
-	@Parameters("browser")
+	@Parameters("port")
     @BeforeTest
-    public void setUp(String browser) throws MalformedURLException {
+    public void setUp(String port) throws MalformedURLException {
 		 
         BaseClass.initializeProp("Configuration/config.properties");
-        launchBrowser(browser);
+        launchBrowser(port);
         addReviewProductObj=  new AddReviewOnProduct(driver);
     }
 
     @Test
-    public void testscenario() throws InterruptedException {
+    public void addReviewOnProductTest() throws IOException, InterruptedException {
     	
         addReviewProductObj.verificationOfAddReviewProduct();
     }
 
-    @AfterMethod()
+   /* @AfterMethod()
     public void closeBrowser() {
         driver.quit();
         System.out.println("Browser Closed");
-    }
+    }*/
 }

@@ -1,5 +1,6 @@
 package org.AutomationExercise.Tests;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.Base.BaseConfiguration;
@@ -26,14 +27,14 @@ public class SearchProductsTest extends BaseConfiguration{
 
 
 		@Test
-		public void testscenario() throws InterruptedException {
+		public void testscenario() throws IOException, InterruptedException {
 			removeProductsObj.verificationOfSearchProduct();
 		}
 		
-	@AfterMethod()
+	/*@AfterMethod()
 		public void closeBrowser(){
 			 driver.quit();
 	            System.out.println("Browser Closed");
-	}
+	}*/
 
 }

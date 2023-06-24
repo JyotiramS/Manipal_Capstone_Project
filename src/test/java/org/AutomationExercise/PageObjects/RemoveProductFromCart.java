@@ -1,15 +1,11 @@
 package org.AutomationExercise.PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import junit.framework.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -68,7 +64,7 @@ public class RemoveProductFromCart extends BaseConfiguration {
 
     public void verificationOfremoveProduct() throws InterruptedException {
         Assert.assertTrue(homeButton.isDisplayed());
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
@@ -93,16 +89,18 @@ public class RemoveProductFromCart extends BaseConfiguration {
         js3.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
 
         cart.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         x1.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         x2.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         x3.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         x4.click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         x5.click();
+        JavascriptExecutor js4 = (JavascriptExecutor) driver;
+        js4.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
 
         cartEmpty.click();
     }}

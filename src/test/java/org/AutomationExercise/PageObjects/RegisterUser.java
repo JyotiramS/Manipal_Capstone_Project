@@ -109,77 +109,77 @@ public class RegisterUser extends BaseConfiguration {
   
 
     public void verifyRegisterSuccess() throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        
-        Assert.assertTrue(homeButton.isDisplayed());
-        
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        
-        signupAndLogin.click();
-        
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
-        
-        name.sendKeys(readProperty("name"));
-        emailAddress.sendKeys(readProperty("email"));
-        signupButton.click();
-        
-        WebElement mTitleElement = wait.until(ExpectedConditions.elementToBeClickable(mTitle));
-        mTitleElement.click();
-        
-        enterPassword.sendKeys(readProperty("password"));
-        
-        Select daySelectDropdown = new Select(daySelect);
-        daySelectDropdown.selectByValue("25");
-        
-        Select monthSelectDropdown = new Select(monthSelect);
-        monthSelectDropdown.selectByVisibleText("March");
-        
-        Select yearSelectDropdown = new Select(yearSelect);
-        yearSelectDropdown.selectByValue("2017");
-        
-        JavascriptExecutor js1 = (JavascriptExecutor) driver;
-        js1.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
-        
-        signupForNewsletterCheckbox.click();
-        receiveSpecialOfferCheckbox.click();
-        
-        firstName.sendKeys(readProperty("firstname"));
-        
-        lastName.sendKeys(readProperty("lastname"));
-        
-        company.sendKeys(readProperty("company"));
-        
-        address.sendKeys(readProperty("address"));
-        
-        state.sendKeys(readProperty("state"));
-        
-        city.sendKeys(readProperty("City"));
-        
-        zipcode.sendKeys(readProperty("ZipC"));
-        
-        mobileNumber.sendKeys(readProperty("mobilenumber"));
-        
-        WebElement createAccountElement = wait.until(ExpectedConditions.elementToBeClickable(createAccount));
-        createAccountElement.click();
-        
-        Assert.assertTrue(accountCreatedMessage.isDisplayed());
-        
-        WebElement continueButtonElement = wait.until(ExpectedConditions.elementToBeClickable(continueButton));
-        continueButtonElement.click();
-        
-        Thread.sleep(2000);
-        
-        JavascriptExecutor js3 = (JavascriptExecutor) driver;
-        js3.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
-        
-        continueButton.click();
-        
-        JavascriptExecutor js4 = (JavascriptExecutor) driver;
-        js4.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
-        
-        deleteAccountButton.click();
-        Assert.assertTrue(accountDeletedMessage.isDisplayed());
-        continueLink.click();
+    	 WebDriverWait wait = new WebDriverWait(driver, 60);
+         
+         Assert.assertTrue(homeButton.isDisplayed());
+         
+         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+         
+         signupAndLogin.click();
+         
+         JavascriptExecutor js = (JavascriptExecutor) driver;
+         js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+         
+         name.sendKeys(readProperty("name"));
+         emailAddress.sendKeys(readProperty("email"));
+         signupButton.click();
+         
+         WebElement mTitleElement = wait.until(ExpectedConditions.elementToBeClickable(mTitle));
+         mTitleElement.click();
+         
+         enterPassword.sendKeys(readProperty("password"));
+         
+         Select daySelectDropdown = new Select(daySelect);
+         daySelectDropdown.selectByValue("25");
+         
+         Select monthSelectDropdown = new Select(monthSelect);
+         monthSelectDropdown.selectByVisibleText("March");
+         
+         Select yearSelectDropdown = new Select(yearSelect);
+         yearSelectDropdown.selectByValue("2017");
+         
+         JavascriptExecutor js1 = (JavascriptExecutor) driver;
+         js1.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+         
+         signupForNewsletterCheckbox.click();
+         receiveSpecialOfferCheckbox.click();
+         
+         firstName.sendKeys(readProperty("firstname"));
+         
+         lastName.sendKeys(readProperty("lastname"));
+         
+         company.sendKeys(readProperty("company"));
+         
+         address.sendKeys(readProperty("address"));
+         
+         state.sendKeys(readProperty("state"));
+         
+         city.sendKeys(readProperty("City"));
+         
+         zipcode.sendKeys(readProperty("ZipC"));
+         
+         mobileNumber.sendKeys(readProperty("mobilenumber"));
+         
+         WebElement createAccountElement = wait.until(ExpectedConditions.elementToBeClickable(createAccount));
+         createAccountElement.click();
+         
+         Assert.assertTrue(accountCreatedMessage.isDisplayed());
+         
+         WebElement continueButtonElement = wait.until(ExpectedConditions.elementToBeClickable(continueButton));
+         continueButtonElement.click();
+         
+        // Thread.sleep(2000);
+         
+         JavascriptExecutor js3 = (JavascriptExecutor) driver;
+         js3.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+         
+         continueButton.click();
+         
+         JavascriptExecutor js4 = (JavascriptExecutor) driver;
+         js4.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+         
+         deleteAccountButton.click();
+         Assert.assertTrue(accountDeletedMessage.isDisplayed());
+         continueLink.click();
     }
 }

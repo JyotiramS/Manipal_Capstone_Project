@@ -1,5 +1,6 @@
 package org.AutomationExercise.Tests;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.Base.BaseConfiguration;
@@ -22,16 +23,16 @@ public class ValidLoginCredentialsTest extends BaseConfiguration{
 	}
 
 	@Test
-	public void testscenario2() throws InterruptedException {
+	public void testscenario2() throws IOException, InterruptedException {
 		
 		loginVcredentialObj.verifyLoginCredentials();
 	}
 	
-   @AfterMethod()
+ /*  @AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}
+}*/
 
 }
 

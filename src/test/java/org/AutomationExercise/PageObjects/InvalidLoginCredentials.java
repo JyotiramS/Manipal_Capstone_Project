@@ -1,5 +1,6 @@
 package org.AutomationExercise.PageObjects;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.AutomationExercise.Base.BaseConfiguration;
@@ -46,9 +47,8 @@ public class InvalidLoginCredentials extends BaseConfiguration {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 	    js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
         
-        loginEmail.sendKeys(readProperty("email1"));
-        enterPassword.sendKeys(readProperty("password1"));
+        loginEmail.sendKeys(readProperty("email3"));
+        enterPassword.sendKeys(readProperty("password3"));
         
         loginButton.click();
-    }
-}
+    }}

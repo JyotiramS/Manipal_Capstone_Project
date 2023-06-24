@@ -1,98 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" parallel="tests" name="Microsoft Test(failed)" verbose="0">
-    <parameter name="browser" value="MicrosoftEdge"/>
-    <classes>
-      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
-      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
-      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testscenario4"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
-      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
-        <methods>
-          <include name="testscenario1"/>
-          <include name="closeBrowser"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
-      <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest">
-        <methods>
-          <include name="testscenario3"/>
-          <include name="closeBrowser"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.InValidLoginCredentialsTest -->
-      <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario2"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
-    </classes>
-  </test> <!-- Microsoft Test(failed) -->
   <test thread-count="5" parallel="tests" name="chrome Test(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="port" value="5555"/>
     <classes>
-      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
-      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
-      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testscenario4"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
-      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
-        <methods>
-          <include name="testscenario1"/>
-          <include name="closeBrowser"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
       <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest">
         <methods>
-          <include name="testscenario3"/>
-          <include name="closeBrowser"/>
+          <include name="loginIvCredentialTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- org.AutomationExercise.GridTests.InValidLoginCredentialsTest -->
       <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="testscenario2"/>
           <include name="setUp"/>
+          <include name="validLoginTest"/>
         </methods>
       </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
+      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
+        <methods>
+          <include name="addReviewOnProductTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
+      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
+        <methods>
+          <include name="removeProductTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
+      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
+        <methods>
+          <include name="searchProductTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
     </classes>
   </test> <!-- chrome Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
