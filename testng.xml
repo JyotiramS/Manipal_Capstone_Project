@@ -7,23 +7,23 @@
 		
 	 <class name="org.AutomationExercise.GridTests.RegisterUserTest"/>	
 	 <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest"/>
-	 <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/>
-	 <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/> 
-     <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest"/>
-	<class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
-     
+	 <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/>
+	 <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest"/>
+	 <class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
+	 <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/>   
     </classes>
   </test>   
   
-   <test  name="Microsoft Test">
-	    <parameter name="port" value="6666" />
+  <test  name="Microsoft Test">
+	    <parameter name="port" value="7777" />
     <classes>
      <class name="org.AutomationExercise.GridTests.RegisterUserTest"/>	
 	 <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest"/>
+	 <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/>
 	 <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest"/>
-     <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest"/>
-	 <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/> 
-     <class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
+	 <class name="org.AutomationExercise.GridTests.SearchProductsTest"/>
+	 <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest"/>   
+     
      
     </classes>
   </test>   

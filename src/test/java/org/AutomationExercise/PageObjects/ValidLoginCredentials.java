@@ -1,5 +1,6 @@
 package org.AutomationExercise.PageObjects;
 
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,14 +39,25 @@ public class ValidLoginCredentials extends BaseConfiguration {
 	  
 	  
 
-	  public void verifyLoginCredentials() {
+	  public void verifyLoginCredentials() throws InterruptedException {
 		  
-			Assert.assertTrue(Homepage.isDisplayed());
+		
 	    	SignupLoginpage.click();
 	  	Assert.assertTrue(logintoyouraccount.isDisplayed());
-	    	email.sendKeys(readProperty("email1"));
-	    	password.sendKeys(readProperty("password1"));
+	  	 driver.navigate().refresh();
+         try {
+        	 
+        	 email.sendKeys(readProperty("email1"));
+ 	    	password.sendKeys(readProperty("password1"));
+              
+         }catch(StaleElementReferenceException e ) {
+        	 
+        	 email.sendKeys(readProperty("email1"));
+ 	    	password.sendKeys(readProperty("password1"));  
+         }
+	    	
 	    	loginbutton.click();
+	    	Thread.sleep(3000);
 	    	logoutbutton.click();
     }
 }

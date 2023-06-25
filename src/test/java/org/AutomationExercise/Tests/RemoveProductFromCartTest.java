@@ -5,10 +5,8 @@ import java.net.MalformedURLException;
 
 import org.AutomationExercise.Base.BaseConfiguration;
 import org.AutomationExercise.PageObjects.RemoveProductFromCart;
-import org.Grid.base.BaseClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class RemoveProductFromCartTest  extends BaseConfiguration {
@@ -25,15 +23,15 @@ public class RemoveProductFromCartTest  extends BaseConfiguration {
 	}
 
 	@Test
-	public void testscenario4() throws  IOException, InterruptedException {
+	public void removeProductTest() throws  IOException, InterruptedException {
 		
 		removeProductsObj.verificationOfremoveProduct();
 	}
 	
-/*@AfterMethod()
+   @AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}*/
+}
 
 }

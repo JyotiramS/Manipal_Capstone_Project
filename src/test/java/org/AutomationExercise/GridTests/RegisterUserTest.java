@@ -1,6 +1,5 @@
 package org.AutomationExercise.GridTests;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.AutomationExercise.PageObjects.RegisterUser;
@@ -17,7 +16,7 @@ public class RegisterUserTest extends BaseClass {
 	 
 	@Parameters("port")
 	@BeforeTest
-	public void setUp(String port) throws MalformedURLException  {
+	public void setUp(String port) throws MalformedURLException, InterruptedException  {
 		BaseClass.initializeProp("Configuration/config.properties");
 		launchBrowser(port);
 		registeruserOBJ=new RegisterUser(driver);
@@ -25,17 +24,22 @@ public class RegisterUserTest extends BaseClass {
 	}
 
 	@Test
-	public void registerUserTest() throws IOException, InterruptedException {
+	public void registerUserTest()  {
 		
-		registeruserOBJ.verifyRegisterSuccess();
+		try {
+			registeruserOBJ.verifyRegisterSuccess();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
-/*	@AfterMethod()
+	@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
 }
-*/
+
 	
 
 }

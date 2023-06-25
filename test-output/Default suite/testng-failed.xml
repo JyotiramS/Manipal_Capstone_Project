@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.AutomationExercise.Tests.SearchProductsTest">
+      <class name="org.AutomationExercise.Tests.RegisterUserTest">
         <methods>
-          <include name="testscenario"/>
+          <include name="closeBrowser"/>
+          <include name="testscenario1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- org.AutomationExercise.Tests.SearchProductsTest -->
+      </class> <!-- org.AutomationExercise.Tests.RegisterUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

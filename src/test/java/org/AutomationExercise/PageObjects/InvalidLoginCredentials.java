@@ -1,10 +1,10 @@
 package org.AutomationExercise.PageObjects;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.AutomationExercise.Base.BaseConfiguration;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -40,15 +40,23 @@ public class InvalidLoginCredentials extends BaseConfiguration {
     public void verificationInvalidCredentials() {
         Assert.assertTrue(homeButton.isDisplayed());
         
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         
         signupAndLogin.click();
         
         JavascriptExecutor js = (JavascriptExecutor) driver;
 	    js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
-        
-        loginEmail.sendKeys(readProperty("email3"));
-        enterPassword.sendKeys(readProperty("password3"));
-        
+	    driver.navigate().refresh();
+        try {
+       	 
+        	 loginEmail.sendKeys(readProperty("email3"));
+             enterPassword.sendKeys(readProperty("password3"));
+             
+        }catch(StaleElementReferenceException e ) {
+       	 
+        	 loginEmail.sendKeys(readProperty("email3"));
+             enterPassword.sendKeys(readProperty("password3")); 
+        }
+       
         loginButton.click();
     }}

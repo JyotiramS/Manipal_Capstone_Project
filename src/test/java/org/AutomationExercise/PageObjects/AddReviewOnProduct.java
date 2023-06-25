@@ -1,8 +1,8 @@
 package org.AutomationExercise.PageObjects;
 
 import org.AutomationExercise.Base.BaseConfiguration;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -51,10 +51,20 @@ public class AddReviewOnProduct extends BaseConfiguration {
 	    js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
 		
 	    ViewProduct.click();
+	    driver.navigate().refresh();
+        try {
+       	 
+        	YourName.sendKeys(readProperty("name"));
+    		Emailaddress.sendKeys(readProperty("email"));
+    		addreview.sendKeys("good");
+             
+        }catch(StaleElementReferenceException e ) {
+       	 
+        	YourName.sendKeys(readProperty("name"));
+    		Emailaddress.sendKeys(readProperty("email"));
+    		addreview.sendKeys("good");  
+        }
 		
-		YourName.sendKeys(readProperty("name"));
-		Emailaddress.sendKeys(readProperty("email"));
-		addreview.sendKeys("good");
 		
 		JavascriptExecutor j2 = (JavascriptExecutor) driver;
 	    j2.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");

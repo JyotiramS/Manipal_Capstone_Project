@@ -23,16 +23,16 @@ public class InValidLoginCredentialsTest extends BaseConfiguration{
 	}
 
 	@Test
-	public void testscenario3()throws  IOException, InterruptedException  {
+	public void invalidLoginCredentialsTest()throws  IOException, InterruptedException  {
 		
 		loginIvcredentialObj.verificationInvalidCredentials();;
 	}
 	
-/*@AfterMethod()
+@AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
            System.out.println("Browser Closed");
-}*/
+}
 }
 
 

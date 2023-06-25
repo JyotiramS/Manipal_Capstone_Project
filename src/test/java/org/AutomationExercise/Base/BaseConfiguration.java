@@ -38,9 +38,9 @@ public class BaseConfiguration {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//resources//chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(readProperty("applicationurl"));
+        
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         PageFactory.initElements(driver, BaseConfiguration.class);
 		return driver;
     }

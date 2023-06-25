@@ -1,19 +1,17 @@
 package org.AutomationExercise.PageObjects;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import junit.framework.Assert;
-
-import java.util.concurrent.TimeUnit;
-
 import org.AutomationExercise.Base.BaseConfiguration;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import junit.framework.Assert;
 
 public class RegisterUser extends BaseConfiguration {
 	WebDriver driver;
@@ -21,6 +19,7 @@ public class RegisterUser extends BaseConfiguration {
 	        this.driver = driver;
 	        PageFactory.initElements(driver, this);
 	    }
+	  
 	  
     @FindBy(xpath = "//a[text()=' Home']")
      WebElement homeButton;
@@ -109,23 +108,40 @@ public class RegisterUser extends BaseConfiguration {
   
 
     public void verifyRegisterSuccess() throws InterruptedException {
-    	 WebDriverWait wait = new WebDriverWait(driver, 60);
-         
+    	 
+    	WebDriverWait wait = new WebDriverWait(driver, 30);
          Assert.assertTrue(homeButton.isDisplayed());
          
-         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-         
-         signupAndLogin.click();
+         WebElement signupAndLoginElement = wait.until(ExpectedConditions.elementToBeClickable(signupAndLogin));
+         signupAndLoginElement.click();
+      
          
          JavascriptExecutor js = (JavascriptExecutor) driver;
          js.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
          
          name.sendKeys(readProperty("name"));
          emailAddress.sendKeys(readProperty("email"));
-         signupButton.click();
          
-         WebElement mTitleElement = wait.until(ExpectedConditions.elementToBeClickable(mTitle));
-         mTitleElement.click();
+         driver.navigate().refresh();
+         try {
+        	 name.sendKeys(readProperty("name"));
+        	 emailAddress.sendKeys(readProperty("email"));
+        	 
+         }catch(StaleElementReferenceException e){
+        	 name.sendKeys(readProperty("name"));
+        	 emailAddress.sendKeys(readProperty("email"));
+         }
+         signupButton.click();
+        
+         driver.navigate().refresh();
+         try {
+        	 
+              mTitle.click();
+              
+         }catch(StaleElementReferenceException e ) {
+        	 
+              mTitle.click();   
+         }
          
          enterPassword.sendKeys(readProperty("password"));
          
@@ -163,23 +179,36 @@ public class RegisterUser extends BaseConfiguration {
          WebElement createAccountElement = wait.until(ExpectedConditions.elementToBeClickable(createAccount));
          createAccountElement.click();
          
+         
          Assert.assertTrue(accountCreatedMessage.isDisplayed());
          
+       
          WebElement continueButtonElement = wait.until(ExpectedConditions.elementToBeClickable(continueButton));
          continueButtonElement.click();
-         
-        // Thread.sleep(2000);
+       
          
          JavascriptExecutor js3 = (JavascriptExecutor) driver;
          js3.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+         try {
+        	 continueButton.click();
+        	 
+         }catch(StaleElementReferenceException e) {
+        	 continueButton.click();
+         }
          
-         continueButton.click();
-         
+        
          JavascriptExecutor js4 = (JavascriptExecutor) driver;
          js4.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
+        
+         WebElement deleteAccountButtonElement = wait.until(ExpectedConditions.elementToBeClickable(deleteAccountButton));
+         deleteAccountButtonElement.click();
+        	
+        	 
+       
          
-         deleteAccountButton.click();
          Assert.assertTrue(accountDeletedMessage.isDisplayed());
-         continueLink.click();
+         WebElement continueLinkElement = wait.until(ExpectedConditions.elementToBeClickable(continueLink));
+         continueLinkElement.click();
+         
     }
 }

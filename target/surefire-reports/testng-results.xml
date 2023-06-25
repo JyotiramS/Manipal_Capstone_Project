@@ -1,117 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="7" failed="5" skipped="0">
+<testng-results ignored="0" total="12" passed="4" failed="2" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-25T00:56:20 IST" name="Suite" finished-at="2023-06-25T01:10:09 IST" duration-ms="829272">
+  <suite started-at="2023-06-25T20:22:39 IST" name="Suite" finished-at="2023-06-25T20:31:06 IST" duration-ms="507542">
     <groups>
     </groups>
-    <test started-at="2023-06-25T00:56:20 IST" name="Microsoft Test" finished-at="2023-06-25T01:01:19 IST" duration-ms="298686">
+    <test started-at="2023-06-25T20:22:39 IST" name="chrome Test" finished-at="2023-06-25T20:27:40 IST" duration-ms="301306">
       <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@3d6f0054]" started-at="2023-06-25T00:56:43 IST" name="setUp" finished-at="2023-06-25T00:57:03 IST" duration-ms="20526" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginIvCredentialTest()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@3d6f0054]" started-at="2023-06-25T01:00:21 IST" name="loginIvCredentialTest" finished-at="2023-06-25T01:00:33 IST" duration-ms="11853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginIvCredentialTest -->
-      </class> <!-- org.AutomationExercise.GridTests.InValidLoginCredentialsTest -->
-      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@505fc5a4]" started-at="2023-06-25T00:56:20 IST" name="setUp" finished-at="2023-06-25T00:56:43 IST" duration-ms="22638" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addReviewOnProductTest()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@505fc5a4]" started-at="2023-06-25T01:00:33 IST" name="addReviewOnProductTest" finished-at="2023-06-25T01:00:37 IST" duration-ms="3582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addReviewOnProductTest -->
-      </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
-      <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@2a54a73f]" started-at="2023-06-25T00:58:21 IST" name="setUp" finished-at="2023-06-25T00:58:42 IST" duration-ms="21657" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@2a54a73f]" started-at="2023-06-25T00:59:27 IST" name="validLoginTest" finished-at="2023-06-25T00:59:53 IST" duration-ms="26244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
-      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@4d5b6aac]" started-at="2023-06-25T00:57:03 IST" name="setUp" finished-at="2023-06-25T00:57:22 IST" duration-ms="18469" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registerUserTest()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@4d5b6aac]" started-at="2023-06-25T00:58:43 IST" name="registerUserTest" finished-at="2023-06-25T00:59:27 IST" duration-ms="44159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUserTest -->
-      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
-      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@5fbdfdcf]" started-at="2023-06-25T00:57:45 IST" name="setUp" finished-at="2023-06-25T00:58:21 IST" duration-ms="35418" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchProductTest()[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@5fbdfdcf]" started-at="2023-06-25T01:00:37 IST" name="searchProductTest" finished-at="2023-06-25T01:01:19 IST" duration-ms="41907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductTest -->
-      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
-      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@16a0ee18]" started-at="2023-06-25T00:57:22 IST" name="setUp" finished-at="2023-06-25T00:57:45 IST" duration-ms="23639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="removeProductTest()[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@16a0ee18]" started-at="2023-06-25T00:59:53 IST" name="removeProductTest" finished-at="2023-06-25T01:00:21 IST" duration-ms="28536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeProductTest -->
-      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
-    </test> <!-- Microsoft Test -->
-    <test started-at="2023-06-25T00:56:20 IST" name="chrome Test" finished-at="2023-06-25T01:10:09 IST" duration-ms="829272">
-      <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@5ace1ed4]" started-at="2023-06-25T00:56:43 IST" name="setUp" finished-at="2023-06-25T00:57:03 IST" duration-ms="20526" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4e096385]" started-at="2023-06-25T20:23:09 IST" name="setUp" finished-at="2023-06-25T20:24:05 IST" duration-ms="56397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,31 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginIvCredentialTest()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@5ace1ed4]" started-at="2023-06-25T01:10:09 IST" name="loginIvCredentialTest" finished-at="2023-06-25T01:10:09 IST" duration-ms="15" status="FAIL">
+        <test-method signature="loginIvCredentialTest()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4e096385]" started-at="2023-06-25T20:27:40 IST" name="loginIvCredentialTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: 9fdc51e7d94b78331efb5600a7c4a0f6
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59961}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9fdc51e7d94b78331efb5600a7c4a0f6
-*** Element info: {Using=xpath, value=//a[text()=' Home']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: 9fdc51e7d94b78331efb5600a7c4a0f6
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59961}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9fdc51e7d94b78331efb5600a7c4a0f6
-*** Element info: {Using=xpath, value=//a[text()=' Home']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -156,30 +44,20 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.AutomationExercise.PageObjects.InvalidLoginCredentials.verificationInvalidCredentials(InvalidLoginCredentials.java:41)
-at org.AutomationExercise.GridTests.InValidLoginCredentialsTest.loginIvCredentialTest(InValidLoginCredentialsTest.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -194,9 +72,13 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIvCredentialTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4e096385]" started-at="2023-06-25T20:27:40 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687705060550" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- org.AutomationExercise.GridTests.InValidLoginCredentialsTest -->
       <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@6631f5ca]" started-at="2023-06-25T00:56:20 IST" name="setUp" finished-at="2023-06-25T00:56:43 IST" duration-ms="22638" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@34f5090e]" started-at="2023-06-25T20:22:39 IST" name="setUp" finished-at="2023-06-25T20:23:09 IST" duration-ms="30272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,31 +89,23 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addReviewOnProductTest()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@6631f5ca]" started-at="2023-06-25T01:10:09 IST" name="addReviewOnProductTest" finished-at="2023-06-25T01:10:09 IST" duration-ms="31" status="FAIL">
+        <test-method signature="addReviewOnProductTest()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@34f5090e]" started-at="2023-06-25T20:27:40 IST" name="addReviewOnProductTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: 4d63e23be0a3b8096d53617867a219b9
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59834}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d63e23be0a3b8096d53617867a219b9
-*** Element info: {Using=xpath, value=//a[text()=' Products']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: 4d63e23be0a3b8096d53617867a219b9
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59834}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d63e23be0a3b8096d53617867a219b9
-*** Element info: {Using=xpath, value=//a[text()=' Products']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -241,30 +115,20 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at org.AutomationExercise.PageObjects.AddReviewOnProduct.verificationOfAddReviewProduct(AddReviewOnProduct.java:49)
-at org.AutomationExercise.GridTests.AddReviewOnProductTest.addReviewOnProductTest(AddReviewOnProductTest.java:33)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -279,9 +143,13 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReviewOnProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@34f5090e]" started-at="2023-06-25T20:27:40 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687705060550" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
       <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@b62d79]" started-at="2023-06-25T00:58:44 IST" name="setUp" finished-at="2023-06-25T00:59:11 IST" duration-ms="26740" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@27ff5d15]" started-at="2023-06-25T20:26:22 IST" name="setUp" finished-at="2023-06-25T20:27:40 IST" duration-ms="77560" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -289,30 +157,22 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@b62d79]" started-at="2023-06-25T00:59:48 IST" name="validLoginTest" finished-at="2023-06-25T01:10:09 IST" duration-ms="621483" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4ae0ffe3bdb5b47c4011caa193ca1070]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4ae0ffe3bdb5b47c4011caa193ca1070
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -322,30 +182,20 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at org.AutomationExercise.PageObjects.ValidLoginCredentials.verifyLoginCredentials(ValidLoginCredentials.java:48)
-at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.validLoginTest(ValidLoginCredentialsTest.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -356,65 +206,27 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
-      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@272ed83b]" started-at="2023-06-25T00:57:03 IST" name="setUp" finished-at="2023-06-25T00:57:45 IST" duration-ms="42106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5555]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registerUserTest()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@272ed83b]" started-at="2023-06-25T00:59:11 IST" name="registerUserTest" finished-at="2023-06-25T00:59:48 IST" duration-ms="37024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUserTest -->
-      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
-      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@27ff5d15]" started-at="2023-06-25T00:58:21 IST" name="setUp" finished-at="2023-06-25T00:58:44 IST" duration-ms="23264" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5555]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchProductTest()[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@27ff5d15]" started-at="2023-06-25T01:10:09 IST" name="searchProductTest" finished-at="2023-06-25T01:10:09 IST" duration-ms="16" status="FAIL">
+        <test-method signature="validLoginTest()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@27ff5d15]" started-at="2023-06-25T20:27:40 IST" name="validLoginTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: f7e88e6441d7ebbc8f78e90952b8b085
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60822}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f7e88e6441d7ebbc8f78e90952b8b085
-*** Element info: {Using=xpath, value=//a[text()=' Home']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: f7e88e6441d7ebbc8f78e90952b8b085
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60822}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f7e88e6441d7ebbc8f78e90952b8b085
-*** Element info: {Using=xpath, value=//a[text()=' Home']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -424,30 +236,162 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.AutomationExercise.PageObjects.SearchProducts.verificationOfSearchProduct(SearchProducts.java:92)
-at org.AutomationExercise.GridTests.SearchProductsTest.searchProductTest(SearchProductsTest.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@27ff5d15]" started-at="2023-06-25T20:27:40 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687705060550" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
+      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@51dcb805]" started-at="2023-06-25T20:24:05 IST" name="setUp" finished-at="2023-06-25T20:25:27 IST" duration-ms="81594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@51dcb805]" started-at="2023-06-25T20:27:40 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687705060546" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="registerUserTest()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@51dcb805]" started-at="2023-06-25T20:27:40 IST" name="registerUserTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
+      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@693fe6c9]" started-at="2023-06-25T20:26:03 IST" name="setUp" finished-at="2023-06-25T20:26:22 IST" duration-ms="19683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProductTest()[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@693fe6c9]" started-at="2023-06-25T20:27:40 IST" name="searchProductTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -464,7 +408,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
         </test-method> <!-- searchProductTest -->
       </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
       <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@1613674b]" started-at="2023-06-25T00:57:45 IST" name="setUp" finished-at="2023-06-25T00:58:21 IST" duration-ms="35396" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@649bec2e]" started-at="2023-06-25T20:25:27 IST" name="setUp" finished-at="2023-06-25T20:26:03 IST" duration-ms="35755" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -475,31 +419,23 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="removeProductTest()[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@1613674b]" started-at="2023-06-25T01:10:09 IST" name="removeProductTest" finished-at="2023-06-25T01:10:09 IST" duration-ms="16" status="FAIL">
+        <test-method signature="removeProductTest()[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@649bec2e]" started-at="2023-06-25T20:27:40 IST" name="removeProductTest" finished-at="2023-06-25T20:27:40 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: 85f11710506cd91d77958a2967cfa543
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60537}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85f11710506cd91d77958a2967cfa543
-*** Element info: {Using=xpath, value=//a[text()=' Home']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: 85f11710506cd91d77958a2967cfa543
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
-Driver info: driver.version: unknown
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60537}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 85f11710506cd91d77958a2967cfa543
-*** Element info: {Using=xpath, value=//a[text()=' Home']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\RAM\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 318eaeff6ac1e5453f7bbe0a53d6c40a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -509,30 +445,20 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at org.AutomationExercise.PageObjects.RemoveProductFromCart.verificationOfremoveProduct(RemoveProductFromCart.java:66)
-at org.AutomationExercise.GridTests.RemoveProductFromCartTest.removeProductTest(RemoveProductFromCartTest.java:29)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+at org.Grid.base.BaseClass.launchBrowser(BaseClass.java:58)
+at org.AutomationExercise.GridTests.ValidLoginCredentialsTest.setUp(ValidLoginCredentialsTest.java:19)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
@@ -549,5 +475,261 @@ at java.base/java.lang.Thread.run(Thread.java:834)
         </test-method> <!-- removeProductTest -->
       </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
     </test> <!-- chrome Test -->
+    <test started-at="2023-06-25T20:22:39 IST" name="Microsoft Test" finished-at="2023-06-25T20:31:06 IST" duration-ms="507542">
+      <class name="org.AutomationExercise.GridTests.InValidLoginCredentialsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4efc180e]" started-at="2023-06-25T20:23:09 IST" name="setUp" finished-at="2023-06-25T20:23:41 IST" duration-ms="31637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginIvCredentialTest()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4efc180e]" started-at="2023-06-25T20:29:07 IST" name="loginIvCredentialTest" finished-at="2023-06-25T20:29:07 IST" duration-ms="26" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: a235e7633e87ea899e8e158a04f55ef1
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60384}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a235e7633e87ea899e8e158a04f55ef1
+*** Element info: {Using=xpath, value=//a[text()=' Home']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: a235e7633e87ea899e8e158a04f55ef1
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60384}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a235e7633e87ea899e8e158a04f55ef1
+*** Element info: {Using=xpath, value=//a[text()=' Home']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at org.AutomationExercise.PageObjects.InvalidLoginCredentials.verificationInvalidCredentials(InvalidLoginCredentials.java:41)
+at org.AutomationExercise.GridTests.InValidLoginCredentialsTest.loginIvCredentialTest(InValidLoginCredentialsTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIvCredentialTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.InValidLoginCredentialsTest@4efc180e]" started-at="2023-06-25T20:29:07 IST" name="closeBrowser" finished-at="2023-06-25T20:29:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.AutomationExercise.GridTests.InValidLoginCredentialsTest -->
+      <class name="org.AutomationExercise.GridTests.AddReviewOnProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@156b88f5]" started-at="2023-06-25T20:22:39 IST" name="setUp" finished-at="2023-06-25T20:23:09 IST" duration-ms="30297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addReviewOnProductTest()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@156b88f5]" started-at="2023-06-25T20:31:06 IST" name="addReviewOnProductTest" finished-at="2023-06-25T20:31:06 IST" duration-ms="13" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Unable to execute request for an existing session: Unable to find session with ID: 1c3db95318606ead3c2f916c44e93f54
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60204}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c3db95318606ead3c2f916c44e93f54
+*** Element info: {Using=xpath, value=//a[text()=' Products']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Unable to execute request for an existing session: Unable to find session with ID: 1c3db95318606ead3c2f916c44e93f54
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAMSATPUTE', ip: '192.168.232.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.58, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60204}, msedge: {msedgedriverVersion: 114.0.1823.18 (8b9609669814..., userDataDir: C:\Users\RAM\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.232.64:4444/se..., se:cdpVersion: 114.0.1823.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c3db95318606ead3c2f916c44e93f54
+*** Element info: {Using=xpath, value=//a[text()=' Products']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at org.AutomationExercise.PageObjects.AddReviewOnProduct.verificationOfAddReviewProduct(AddReviewOnProduct.java:49)
+at org.AutomationExercise.GridTests.AddReviewOnProductTest.addReviewOnProductTest(AddReviewOnProductTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReviewOnProductTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.AddReviewOnProductTest@156b88f5]" started-at="2023-06-25T20:31:06 IST" name="closeBrowser" finished-at="2023-06-25T20:31:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.AutomationExercise.GridTests.AddReviewOnProductTest -->
+      <class name="org.AutomationExercise.GridTests.ValidLoginCredentialsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@5fbdfdcf]" started-at="2023-06-25T20:24:51 IST" name="setUp" finished-at="2023-06-25T20:25:27 IST" duration-ms="35618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@5fbdfdcf]" started-at="2023-06-25T20:27:40 IST" name="validLoginTest" finished-at="2023-06-25T20:29:07 IST" duration-ms="87137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.ValidLoginCredentialsTest@5fbdfdcf]" started-at="2023-06-25T20:29:07 IST" name="closeBrowser" finished-at="2023-06-25T20:29:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.AutomationExercise.GridTests.ValidLoginCredentialsTest -->
+      <class name="org.AutomationExercise.GridTests.RegisterUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@5403f35f]" started-at="2023-06-25T20:23:41 IST" name="setUp" finished-at="2023-06-25T20:24:05 IST" duration-ms="24767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUserTest()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@5403f35f]" started-at="2023-06-25T20:25:27 IST" name="registerUserTest" finished-at="2023-06-25T20:27:20 IST" duration-ms="113006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.AutomationExercise.GridTests.RegisterUserTest@5403f35f]" started-at="2023-06-25T20:27:20 IST" name="closeBrowser" finished-at="2023-06-25T20:27:40 IST" duration-ms="19934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.AutomationExercise.GridTests.RegisterUserTest -->
+      <class name="org.AutomationExercise.GridTests.SearchProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@25084a1e]" started-at="2023-06-25T20:24:31 IST" name="setUp" finished-at="2023-06-25T20:24:51 IST" duration-ms="20284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProductTest()[pri:0, instance:org.AutomationExercise.GridTests.SearchProductsTest@25084a1e]" started-at="2023-06-25T20:29:39 IST" name="searchProductTest" finished-at="2023-06-25T20:31:06 IST" duration-ms="87653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+      </class> <!-- org.AutomationExercise.GridTests.SearchProductsTest -->
+      <class name="org.AutomationExercise.GridTests.RemoveProductFromCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@bd4dc25]" started-at="2023-06-25T20:24:05 IST" name="setUp" finished-at="2023-06-25T20:24:31 IST" duration-ms="25694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductTest()[pri:0, instance:org.AutomationExercise.GridTests.RemoveProductFromCartTest@bd4dc25]" started-at="2023-06-25T20:29:07 IST" name="removeProductTest" finished-at="2023-06-25T20:29:39 IST" duration-ms="31414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+      </class> <!-- org.AutomationExercise.GridTests.RemoveProductFromCartTest -->
+    </test> <!-- Microsoft Test -->
   </suite> <!-- Suite -->
 </testng-results>

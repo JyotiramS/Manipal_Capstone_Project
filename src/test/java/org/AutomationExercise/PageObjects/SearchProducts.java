@@ -6,11 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import java.util.concurrent.TimeUnit;
 
 import org.AutomationExercise.Base.BaseConfiguration;
 
@@ -107,35 +103,35 @@ public class SearchProducts extends BaseConfiguration {
         
         ac1.moveToElement(Addproduct1).click().build().perform();
     	Continueshopping.click();
-        Thread.sleep(1000);
+        Thread.sleep(3000);
     	ac1.moveToElement(Addproduct2).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct3).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	//srollDown
     	JavascriptExecutor js4 = (JavascriptExecutor) driver;
         js4.executeScript("window.scrollBy(0,600)", "");
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct4).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct5).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct6).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	//srollDown
     	JavascriptExecutor js7 = (JavascriptExecutor) driver;
         js7.executeScript("window.scrollBy(0,550)", "");
     	ac1.moveToElement(Addproduct7).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct8).click().build().perform();
     	Continueshopping.click();
-    	Thread.sleep(1000);
+    	Thread.sleep(3000);
     	ac1.moveToElement(Addproduct9).click().build().perform();
     	Continueshopping.click();
     	

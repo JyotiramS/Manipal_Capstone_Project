@@ -1,7 +1,6 @@
 package org.AutomationExercise.GridTests;
 
- import java.io.IOException;
-import java.net.MalformedURLException;
+ import java.net.MalformedURLException;
 
 import org.AutomationExercise.PageObjects.InvalidLoginCredentials;
 import org.Grid.base.BaseClass;
@@ -15,23 +14,23 @@ public class InValidLoginCredentialsTest extends BaseClass{
 	
 	@Parameters("port")
 	@BeforeTest
-	public void setUp(String port) throws MalformedURLException {
+	public void setUp(String port) throws MalformedURLException, InterruptedException {
 		BaseClass.initializeProp("Configuration/config.properties");
 		launchBrowser(port);
 		loginIvcredentialObj=new InvalidLoginCredentials(driver);
 	}
 
 	@Test
-	public void loginIvCredentialTest() throws IOException, InterruptedException {
+	public void loginIvCredentialTest()  {
 		
 		loginIvcredentialObj.verificationInvalidCredentials();;
 	}
 	
-  /*@AfterMethod()
+  @AfterMethod()
 	public void closeBrowser(){
 		 driver.quit();
             System.out.println("Browser Closed");
-}*/
+}
 }
 
 

@@ -5,11 +5,8 @@ import java.net.MalformedURLException;
 
 import org.AutomationExercise.Base.BaseConfiguration;
 import org.AutomationExercise.PageObjects.SearchProducts;
-import org.Grid.base.BaseClass;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class SearchProductsTest extends BaseConfiguration{
@@ -27,14 +24,14 @@ public class SearchProductsTest extends BaseConfiguration{
 
 
 		@Test
-		public void testscenario() throws IOException, InterruptedException {
+		public void searchProductTest() throws IOException, InterruptedException {
 			removeProductsObj.verificationOfSearchProduct();
 		}
 		
-	/*@AfterMethod()
+	 @AfterMethod()
 		public void closeBrowser(){
 			 driver.quit();
 	            System.out.println("Browser Closed");
-	}*/
+	}
 
 }
